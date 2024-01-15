@@ -1,0 +1,112 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(246, 177, 122, 0.9);
+    height: 4rem;
+    transition: background-color 0.3s ease;
+}
+
+.nav.scroll {
+    background-color: rgba(207, 199, 192, 0.455); /* Background color with more transparency on scroll */
+}
+
+.title_desp {
+    margin: 0;
+    color: #fff;
+    font-size: 50px;
+}
+
+.credentials {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+#links {
+    text-decoration: none;
+    color: #fff; /* Add your desired text color */
+    margin: 0 18px; /* Add some spacing between links if needed */
+    font-size: 30px;
+}
+
+#links:hover{
+    color: #1430ade3;
+}
+
+#Home{
+    background-image: url('assets/bg1.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 800px;
+    /* margin-top: auto; */
+}
+
+.txt{
+    font-size: 36px; /* Adjust the font size as needed */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    color: #33ff00;
+    font-family: cursive;
+}
+
+#About{
+    /* position: relative; */
+    background-image: url('assets/bg2.webp'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 800px;
+    
+}
+
+.txt2{
+    font-size: 36px;
+    position: absolute;
+    top: 1530px;
+    right: 0;
+    margin: 10px;
+    color: #33ff00;
+    font-family: cursive;
+    
+}
+
+#Contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh; 
+    background-color: #13dbd7e3;
+}
+
+.contacts {
+    text-align: center;
+}
+
+.emoji {
+    font-size: 30px; 
+    margin: 10px; 
+}
+
+.emoji:hover{
+    color: antiquewhite;
+}
+
+.contact_desp {
+    margin: 10px;
+    font-size: 30px; 
+}
