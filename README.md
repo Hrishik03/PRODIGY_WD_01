@@ -1,2 +1,2 @@
 ## Checkout the website on below given link:
-[Click here](https://luminous-sundae-8bc68c.netlify.app/).
+[Click here]( https://hrishik03.github.io/PRODIGY_WD_01/).
